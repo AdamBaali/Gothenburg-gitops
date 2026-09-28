@@ -188,7 +188,8 @@ software:
     - path: ../platforms/macos/software/zoom.yml
       self_service: true
       setup_experience: true 
-      categories: Funtimes
+      categories: 
+        - Funtimes
 
     # Windows custom packages
     # …
