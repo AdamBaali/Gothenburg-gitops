@@ -23,8 +23,12 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: FleetDM
+    org_name: Adams Awesome Team
 
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/d04faced-c043-4b31-88a3-5c2e1eb3ba89
   server_settings:
     ###########################################################
     # The server URL where Fleet is running.
